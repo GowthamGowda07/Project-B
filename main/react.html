@@ -14,11 +14,13 @@
     
    <style>
 
-    body{
-        padding: 0;
+    *{
+      padding: 0;
         margin: 0;
+        box-sizing: border-box;
         overflow-x: hidden;
     }
+    
     .modal-header{
     color: orange;
     }
@@ -72,9 +74,12 @@
         <ul class="dropdown-menu">
             <li><a href="java.html" class="dropdown-item">JAVA Full stack</a></li>
             <li><a href="python.html" class="dropdown-item">Python Full stack</a></li>
-            <li><a href="react.html" class="dropdown-item">Reaact</a></li>
+            <li><a href="react.html" class="dropdown-item">React</a></li>
         </ul>
           </li>
+          <li class="nav-item">
+            <a  class="nav-link " href="checkout.html">Checkout</a>
+        </li>
         </ul>
       </div>
     </div>
@@ -120,7 +125,7 @@
                                 </div>
                             
                              
-                        <button type="submit" class="btn btn-primary">submit</button>
+                                <a href="pricing.html" class="btn btn-primary">Submit</a>
                         </form>
                         
                       
@@ -167,7 +172,7 @@
                 <div class="text-center my-5">
                 <h1  >Program<span class="text-primary">Highlights</span></h1>
                 <hr>
-                <img   src="progam highlights.png" width="100%">
+                <img   src="../img/progam highlights.png" width="100%">
                 </div>
                 <section class="about my-5" id="about">
     <div class="container">
@@ -198,48 +203,53 @@
        
         </div>
        
-        <section class="team  my-5 text-center" id="team">
-          <div class="container">
-            <div class="text-center my-5" div data-aos="flip-right" >
-              <h1>placed<span class="text-primary">Students</span></h1>
-              <hr class="w-25 m-auto">
-            </div>
-              <div class="row" div data-aos="zoom-in" >
-                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-                  <div class="card">
-                                <div class="card-body">
-                                  <img src="Gowtham.png" class="img-fluid rounded-circle border border-primary p-2">
-                                  <h5 class="card-title">Gowtham</h5>
-                                  <p class="card-text"> Wipro-10Lpa</p>
-                              
-                                </div>
-                </div>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-                  <div class="card">
-                                <div class="card-body">
-                                  <img src="mukesh.png" class="img-fluid rounded-circle border border-primary p-5">
-                                  <h5 class="card-title">Mukesh</h5>
-                                  <p class="card-text">infosys-10lpa</p>
-                                  
-                                </div>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-                  <div class="card">
-                                <div class="card-body">
-                                  <img src="kali1.jpg" class="img-fluid rounded-circle border border-primary p-3 mb-2">
-                                  <h5 class="card-title">Kaliprasad</h5>
-                                  <p class="card-text"></p>
-                                  
-                                </div>
-                </div>
-              </div>
-              </div>
-          </div>
-        </section>
     </div>
   </div>
+
+
+  <div class="new">
+        
+    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#mymodal">Enroll</button>
+    
+    
+   
+    </div>
+    <div class="modal" id="mymodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Course Enroll Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            
+            
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                            <label class="form-label">Phone Number</label>
+                            <input type="number" class="form-control">
+                            </div>
+                        
+                         
+                    <button type="submit" class="btn btn-primary">submit</button>
+                    </form>
+                    
+                  
+                    </div>
+                
+            </div>
+        </div>
+        </div>
+
+        <hr class="mt-3">
 </body>
 </html>
 
